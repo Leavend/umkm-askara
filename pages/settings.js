@@ -21,12 +21,12 @@ function SettingsPage({swal}) {
     await axios.get('/api/products').then(res => {
       setProducts(res.data);
     });
-    // await axios.get('/api/settings?name=featuredProductId').then(res => {
-    //   setFeaturedProductId(res.data.value);
-    // });
-    // await axios.get('/api/settings?name=shippingFee').then(res => {
-    //   setShippingFee(res.data.value);
-    // });
+    await axios.get('/api/settings?name=featuredProductId').then(res => {
+      setFeaturedProductId(res.data.value);
+    });
+    await axios.get('/api/settings?name=shippingFee').then(res => {
+      setShippingFee(res.data.value);
+    });
   }
 
   async function saveSettings() {
