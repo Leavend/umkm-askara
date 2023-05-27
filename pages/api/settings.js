@@ -13,7 +13,7 @@ export default async function handle(req, res) {
       settingDoc.value = value;
       await settingDoc.save();
       res.json(settingDoc);
-    } else {
+  } else {
       res.json(await Setting.create({name,value}));
     }
   }
