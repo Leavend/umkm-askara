@@ -44,37 +44,37 @@ export default function HomeStats() {
       <h2>Orders</h2>
       <div className="tiles-grid">
         <div className="tile">
-          <h3 className="tile-header">Today</h3>
+          <h3 className="tile-header">Hari ini</h3>
           <div className="tile-number">{ordersToday.length}</div>
-          <div className="tile-desc">{ordersToday.length} orders today</div>
+          <div className="tile-desc">{ordersToday.length} pesanan hari ini</div>
         </div>
         <div className="tile">
-          <h3 className="tile-header">This week</h3>
+          <h3 className="tile-header">Minggu ini</h3>
           <div className="tile-number">{ordersWeek.length}</div>
-          <div className="tile-desc">{ordersWeek.length} orders this week</div>
+          <div className="tile-desc">{ordersWeek.length} pesanan minggu ini</div>
         </div>
         <div className="tile">
-          <h3 className="tile-header">This month</h3>
+          <h3 className="tile-header">Bulan ini</h3>
           <div className="tile-number">{ordersMonth.length}</div>
-          <div className="tile-desc">{ordersMonth.length} orders this month</div>
+          <div className="tile-desc">{ordersMonth.length} pesanan bulan ini</div>
         </div>
       </div>
       <h2>Revenue</h2>
       <div className="tiles-grid">
         <div className="tile">
-          <h3 className="tile-header">Today</h3>
+          <h3 className="tile-header">Hari ini</h3>
           <div className="tile-number">Rp. {ordersTotal(ordersToday)}</div>
-          <div className="tile-desc">{ordersToday.length} orders today</div>
+          <div className="tile-desc">{ordersToday.length} pesanan hari ini</div>
         </div>
         <div className="tile">
-          <h3 className="tile-header">This week</h3>
+          <h3 className="tile-header">Minggu ini</h3>
           <div className="tile-number">Rp. {ordersTotal(ordersWeek)}</div>
-          <div className="tile-desc">{ordersWeek.length} orders this week</div>
+          <div className="tile-desc">{ordersWeek.length} pesanan minggu ini</div>
         </div>
         <div className="tile">
-          <h3 className="tile-header">This month</h3>
+          <h3 className="tile-header">Bulan ini</h3>
           <div className="tile-number">Ro. {ordersTotal(ordersMonth)}</div>
-          <div className="tile-desc">{ordersMonth.length} orders this month</div>
+          <div className="tile-desc">{ordersMonth.length} pesanan bulan ini</div>
         </div>
       </div>
     </div>
