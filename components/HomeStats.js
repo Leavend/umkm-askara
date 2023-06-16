@@ -73,7 +73,7 @@ export default function HomeStats() {
         </div>
         <div className="tile">
           <h3 className="tile-header">Bulan ini</h3>
-          <div className="tile-number">Ro. {ordersTotal(ordersMonth)}</div>
+          <div className="tile-number">Rp. {ordersTotal(ordersMonth)}</div>
           <div className="tile-desc">{ordersMonth.length} pesanan bulan ini</div>
         </div>
       </div>
