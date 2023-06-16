@@ -20,7 +20,7 @@ export default function Products() {
       <table className="basic mt-2">
         <thead>
           <tr>
-            <td>Product name</td>
+            <td>Nama Produk</td>
             <td></td>
           </tr>
         </thead>
