@@ -60,13 +60,13 @@ function SettingsPage({swal}) {
               <option key={product._id} value={product._id}>{product.title}</option>
             ))}
           </select>
-          <label>Shipping price (in usd)</label>
+          <label>Ongkos Kirim (Flat)</label>
           <input type="number"
                  value={shippingFee}
                  onChange={ev => setShippingFee(ev.target.value)}
           />
           <div>
-            <button onClick={saveSettings} className="btn-primary">Save settings</button>
+            <button onClick={saveSettings} className="btn-primary">Simpan</button>
           </div>
         </>
       )}
